@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Test module.
+ */
+
+/**
+ * Returns an array to test nested merge in invoke all.
+ */
+<<<<<<< HEAD
+function module_handler_test_all1_hook($arg) { return array($arg); }
+=======
+function module_handler_test_all1_hook($arg) { return [$arg]; }
+>>>>>>> d6512431464720e04874fbc8bad89f7506bcfeb7
